@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import triageRouter from "./routes/triage.js";
 
 dotenv.config();
+console.log("DB URL loaded:", process.env.DATABASE_URL);
 
 const app = express();
 
